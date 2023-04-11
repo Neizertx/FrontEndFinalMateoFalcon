@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/proyecto_mateo_falcon",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
